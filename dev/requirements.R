@@ -1,4 +1,5 @@
 # This file is supposed to run from the root Playground folder
+options(repos = c(CRAN = "https://cloud.r-project.org/"))
 if (basename(getwd()) != "omicsplayground") {
     stop("Please run from the OmicsPlayground root folder")
 }
